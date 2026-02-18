@@ -4,12 +4,12 @@ Creates Setup Complete Files
 #>
 
 Set-ExecutionPolicy Bypass -Force
-iex (irm https://raw.githubusercontent.com/jessemuldergit/REG/refs/heads/main/REG-ap-menu.ps1)
+iex (irm https://raw.githubusercontent.com/raffie-usb/NSF/refs/heads/main/NSF-ap-menu.ps1)
 
 Write-Host -Foreground Red $GroupTag
 sleep -Seconds 3
 
-iex (irm https://raw.githubusercontent.com/jessemuldergit/REG/refs/heads/main/REG-functions.ps1)
+iex (irm https://raw.githubusercontent.com/raffie-usb/NSF/refs/heads/main/REG-functions.ps1)
 
 #++++++++++++++++++++++++++++++
 # Functions were here !!
