@@ -114,8 +114,6 @@ if (!(Test-Path $DriverPath$ImageFileNameDL)){Copy-Item -Path C:\OSDCloud\OS\$Im
 #===================
 
 if($GroupTag -eq 'MobieleWerkplek'){Dism /image:C:\ /Set-InputLocale:0413:00020409}
-if($GroupTag -eq 'ClassicMobieleWerkplek'){Dism /image:C:\ /Set-InputLocale:0413:00020409}
-if($GroupTag -eq 'SharedUserDevice'){Dism /image:C:\ /Set-InputLocale:0413:00020409}
 
 Restart-Computer
 }
