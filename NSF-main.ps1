@@ -9,7 +9,7 @@ iex (irm https://raw.githubusercontent.com/raffie-usb/NSF/refs/heads/main/NSF-ap
 Write-Host -Foreground Red $GroupTag
 sleep -Seconds 3
 
-iex (irm https://raw.githubusercontent.com/raffie-usb/NSF/refs/heads/main/REG-functions.ps1)
+iex (irm https://raw.githubusercontent.com/raffie-usb/NSF/refs/heads/main/NSF-functions.ps1)
 
 #++++++++++++++++++++++++++++++
 # Functions were here !!
