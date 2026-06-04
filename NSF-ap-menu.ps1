@@ -56,7 +56,7 @@ $listBox.Location = New-Object System.Drawing.Point(10,40)
 $listBox.Size = New-Object System.Drawing.Size(260,20)
 $listBox.Height = 240
 $listBox.Width  = 300
-[void] $listBox.Items.Add('--------CPU--------')
+[void] $listBox.Items.Add('--------NSF--------')
 [void] $listBox.Items.Add('MobieleWerkplek')
 [void] $listBox.Items.Add('')
 
