@@ -59,6 +59,7 @@ $listBox.Width  = 300
 [void] $listBox.Items.Add('--------NSF--------')
 [void] $listBox.Items.Add('MobieleWerkplek')
 [void] $listBox.Items.Add('GedeeldeWerkplek')
+[void] $listBox.Items.Add('Productie')
 [void] $listBox.Items.Add('')
 
 
